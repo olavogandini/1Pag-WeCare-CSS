@@ -1,0 +1,133 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: #515151;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+}
+
+h2{
+    color: #515151;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    margin-bottom: 32px;
+}
+
+p{
+    color: #848484;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 515px;
+    margin-bottom: 65px;
+    text-align: justify;
+}
+
+.logo-image{
+   width: 568px;
+   height: 500px; 
+   margin-left: 125px;
+   display: inline-block;
+}
+
+.button-explore{
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    background-color: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;  
+    border: none; 
+    text-transform: uppercase;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button-header{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 21px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+@media screen and (max-width: 1300px){
+    section{
+        display: block;
+        align-items: center;
+        margin: 0px;
+    }
+
+    p{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    h1{
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        line-height: 60.95px;
+        margin: 0px auto 7px;
+        text-align: center;
+    }
+
+    h2{
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0px auto 17px;
+        text-align: center;
+    }
+
+    .button-explore{
+        margin: 0px auto 133px;
+        display: block;
+    }
+
+    .logo-image{
+        max-width: 80%;
+        height: auto;
+        margin: 149px auto 24px;
+        display: block;
+    }
+
+}
